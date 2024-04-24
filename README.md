@@ -1,5 +1,10 @@
 # UMIDI (UART MIDI)
 
+#NOTICE! This has been deprecated in favor of using the Arduino Library. Turns out that manually installing the library
+works with platformIO. You'll need to either checkout the lib or unpack it inside your /lib folder. Furthermore you may
+need to enable hardware serial on your microcontroller if you are not using the default serial pins.
+
+
 I'm a fan of taking the path of least resistance. I'm also not that great with low level programming. But,
 I really needed to handle MIDI input for an old project originally done with Teensy using the Arduino MIDI
 library, which works with teensy but doesn't work with the ST STM32 BluePill. So, this library got created.
